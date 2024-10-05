@@ -1,0 +1,60 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: grid;
+    place-items: center;
+}
+
+.calculator{
+    display: grid;
+    place-items: center;
+    row-gap: 5px;
+    background-color: #7aa3cb;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.operators{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.op{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.numbers{
+    display: grid;
+    place-items: center;
+    row-gap: 30px;
+    margin-top: 20px;
+}
+
+.anum{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.num1,.num2,.num3,.num4{
+    display: flex;
+    column-gap: 40px;
+}
+
+button{
+    border: none;
+    background-color: white;
+}
+
+.display{
+    background-color: white;
+    width: 100%;
+    border-radius: 15px;
+    height: 65px;
+}
